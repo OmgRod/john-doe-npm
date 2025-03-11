@@ -4,7 +4,7 @@ import path from 'path';
 // Helper function to read JSON files from the 'info/names' folder within the john-doe-gen package
 const readJsonFile = (fileName: string): any[] => {
   // Use __dirname to refer to the current file's directory, then navigate to the correct path
-  const filePath = path.join(__dirname, '..', 'info', 'names', fileName);
+  const filePath = path.join(__dirname, 'info', 'names', fileName);
   const fileContent = fs.readFileSync(filePath, 'utf-8');
   return JSON.parse(fileContent);
 };
