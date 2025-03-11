@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "module": "CommonJS",  // Output CommonJS Modules (.cjs)
+      "target": "ESNext",    // Use the latest JavaScript syntax
+      "esModuleInterop": true,
+      "moduleResolution": "node",
+      "outDir": "./dist",     // Output files to the dist folder
+      "strict": true,
+      "skipLibCheck": true,
+      "resolveJsonModule": true, // Ensure JSON modules are resolved
+      "declaration": false,  // Do not generate .d.ts files
+      "sourceMap": false     // Do not generate .js.map files
+    },
+    "include": [
+      "src/**/*.ts",
+      "index.ts"
+    ],
+    "exclude": ["dist"]
+  }
+  
