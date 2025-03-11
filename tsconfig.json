@@ -12,7 +12,6 @@
       "sourceMap": false     // Do not generate .js.map files
     },
     "include": [
-      "src/**/*.ts",
       "index.ts"
     ],
     "exclude": ["dist"]
